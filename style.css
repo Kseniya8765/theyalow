@@ -5,7 +5,7 @@
   }
 .content {
     margin: 0 auto;
-    max-width:1300px;
+    max-width:1024px;
     width: 100%;
     padding: 0 6px;
     }
@@ -95,4 +95,46 @@ margin-left: 9px;
 display: flex;
 padding-top: 6px;
 padding-bottom: 4px;
+}
+.wrapper3{
+  background-image: url(./assets/layer-32.png);
+}
+.info{
+text-align: center;
+padding-top: 48px;
+}
+.info h1{
+color: #f5c506;
+font-family: "PT Sans";
+font-size: 43px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.43px;
+}
+.order_info{
+  width: 345px;
+}
+.order{
+  display: flex;
+  justify-content: space-between;
+}
+.elipse{
+width: 116px;
+height: 116px;
+background-color: #f5c506;
+border-radius: 50%;
+color: #ffffff;
+font-family: "PT Sans - Narrow Bold";
+font-size: 19px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.51px;
+}
+.order_info li {
+height: 49px;
+color: #a9a9a7;
+font-family: "Open Sans";
+font-size: 22px;
+font-weight: 400;
+letter-spacing: 0.22px;
 }
