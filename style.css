@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+.content {
+    margin: 0 auto;
+    max-width:1300px;
+    width: 100%;
+    padding: 0 6px;
+    }
+.text{
+width: 225px;
+height: 30px;
+text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
+color: #ffffff;
+font-family: "Lucida Sans";
+font-size: 41px;
+font-style: italic;
+text-transform: uppercase;
+letter-spacing: 0.41px;
+margin-top: 21px;
+margin-left: 9px;
+}
+.wrapper{
+  background-image: url(./assets/layer-20.png)
+}
+nav a{
+text-decoration: none;
+width: 76px;
+height: 14px;
+line-height: 14px;
+color: #9b7d08;
+font-family: "Segoe WP";
+font-size: 17px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.17px;
+}
+nav{
+width: 453px;
+height: 41px;
+background-color: #f5c506;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+display: flex;
+justify-content: space-around;
+margin-top: 63px;
+}
+.shape4{
+position: absolute;
+}
+.shape3{
+  position: relative;
+}
+.shape41{
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  }
+  .shape31{
+    position: relative;
+    width: 54px;
+    height: 54px;
+  }
+.logo{
+  padding-top: 28px;
+  width: 83px;
+  display: flex;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+  height: 64px;
+}
+.wrapper2{
+background-color: #4c4c4c;
+box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.75);
+}
+.text2{
+width: 160px;
+height: 21px;
+text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
+color: #ffffff;
+font-family: "Lucida Sans";
+font-size: 29px;
+font-style: italic;
+text-transform: uppercase;
+letter-spacing: 0.29px;
+margin-top: 13px;
+margin-left: 9px;
+}
+.logo2{
+display: flex;
+padding-top: 6px;
+padding-bottom: 4px;
+}
