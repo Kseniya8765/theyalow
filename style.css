@@ -14,6 +14,9 @@
 .bubble{
   display: none;
 }
+.birds2{
+  display: none;
+}
 .text{
 width: 225px;
 height: 30px;
@@ -70,7 +73,7 @@ left: 42%;
 
   }
   .next, .prev{
-    display: none;
+    display: block;
 width: 32px;
 height: 57px;
 background-color: #f5c506;
@@ -489,8 +492,8 @@ padding-top: 9px;
       padding-bottom: 55px;
     }
     .circle{
-    margin-top: -37px;
-    margin-left: 10px;
+    margin-top: -49px;
+    margin-left: 5px;
     }
     .illustration img{
       margin-left: 16px;;
@@ -529,7 +532,7 @@ padding-top: 9px;
     }
     .wrapper5{
       background-image: none;
-      background-color: #f5c507;
+      background: linear-gradient(to top, #f5c507 47%, #ffffff 52%);
     }
     .name{
       display: none;
@@ -606,7 +609,16 @@ border: none;
 border-top-right-radius: 30px;
 border-bottom-right-radius: 30px;
 background-color: #cf8e0b;
+color: #ffffff;
+font-family: "Arial MT";
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0.15px;
       }
+  .click{
+    margin-left: 28px;
+    padding-top: 9px;
+  }
       .box2{
         margin-left: 10px;
         width: 279px;
@@ -632,12 +644,10 @@ background-color: #cf8e0b;
     margin: 0 auto;
     padding-top: 22px;
     }
-
     .num{
       display: none;
     }
-
-    .linebox{
+ .linebox{
       display: none;
     }
     .date{
@@ -655,7 +665,12 @@ background-color: #cf8e0b;
         padding-bottom: 0px;
       }
       .birds{
+       display: none;
+      }
+      .birds2{
+        display: block;
         position: relative;
+        width: 100%;
       }
       .play2 {
         border-radius: 50%;
@@ -681,7 +696,6 @@ background-color: #cf8e0b;
         .buttons{
           display: flex;
         justify-content: space-between;
-
         }
         .next, .prev{
           display: none;
@@ -733,5 +747,8 @@ height: 173px;
 #up2{
 width: 39px;
 height: 63px;
+}
+.wrapper4{
+  background-image: url(./assets/slice-19.png);
 }
 }
