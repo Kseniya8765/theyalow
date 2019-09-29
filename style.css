@@ -672,6 +672,9 @@ letter-spacing: 0.15px;
         position: relative;
         width: 100%;
       }
+      .birds2 video{
+        width:100%;
+      }
       .play2 {
         border-radius: 50%;
         width: 67px;
@@ -711,6 +714,18 @@ letter-spacing: 0.15px;
       nav img{
         margin-right: 11px;
       }
+      .human{
+        width: 24px;
+        height: 22px;
+      }
+      .key{
+        width: 22px;
+        height: 22px;
+      }
+      .post{
+        width: 28px;
+        height: 22px;
+      }
       nav{
       width: 455px;
       height: 62px;
@@ -730,10 +745,7 @@ letter-spacing: 0.15px;
     justify-content: space-between;
     background-color: #505050;
   }
-  #parrot poster {
-    width: 600px !important;
-    height: 327px !important;
-  }
+
 header{
   display: none;
 }
